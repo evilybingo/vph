@@ -1,0 +1,152 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Micsoft Yahei';
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h6 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#header {
+    width: 100%;
+    height: 43px;
+    padding: 0px;
+    background-color: #fbfbfa;
+    border-bottom: 1px solid #efefef;
+}
+
+#header div.icon {
+    width: 7%;
+    height: 43px;
+}
+
+#header div.icon.floatleft {
+    float: left;
+    width: 43px;
+}
+
+#header div.icon.floatright {
+    float: right;
+    width: 43px;
+}
+
+#header div.icon a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-left: 5px;
+}
+#header div.icon a img{
+    display: inline-block;
+    width:32px;
+    height: 32px;
+    transform:translateX(10px);
+    transform: translateY(15%);
+}
+#header ul {
+    width: 160px;
+    margin: auto;
+    position: relative;
+    top: 8px;
+}
+
+#header ul li {
+    float: left;
+}
+
+#header ul li.select a {
+    background-color: #000;
+    color: #fff;
+}
+
+#header ul li a {
+    width: 78px;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    color: #000;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.left {
+    width: 26%;
+    height: 100%;
+    float: left;
+}
+
+.left ul {
+    width: 100;
+}
+
+.left ul li {
+    width: 100%;
+    height: 52px;
+    border-bottom: 1px solid #fff;
+    background-color: #f4f4f4;
+}
+
+.left ul li.selected {
+    background-color: #de3d96;
+}
+
+.left ul li.selected a {
+    background-color: #fff;
+    color: #000;
+}
+
+.left ul li a {
+    display: block;
+    height: 100%;
+    text-align: center;
+    line-height: 52px;
+    color: #555;
+    margin-left: 4px;
+    margin-right: -1px;
+}
+
+.right {
+    width: 74%;
+    height: 100%;
+    float: right;
+}
+
+.right ul {
+    padding: 23px 10px 0;
+}
+
+.right ul h6 {
+    color: #555;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.right ul h6 .list {}
+
+.right ul li .list li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.right ul li .list li a p {
+    margin:0px;
+    color:#555 ;
+}
